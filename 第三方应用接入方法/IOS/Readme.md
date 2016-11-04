@@ -20,6 +20,7 @@
 两个APP之间的跳转是通过```[[UIApplication sharedApplication] openURL:url]```这种方式来实现的。
 
 1. 首先设置第一个APP的url地址
+![step]()
 2. 接着设置第二个APP的url地址
 3. 需要跳转的时候
 ```
