@@ -20,8 +20,9 @@
 两个APP之间的跳转是通过```[[UIApplication sharedApplication] openURL:url]```这种方式来实现的。
 
 1. 首先设置第一个APP的url地址
-![step]()
+![step1](https://github.com/SCUTNC/SCUT-APP-API/blob/master/%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%94%E7%94%A8%E6%8E%A5%E5%85%A5%E6%96%B9%E6%B3%95/IOS/images/url1.jpg)
 2. 接着设置第二个APP的url地址
+![step2](https://github.com/SCUTNC/SCUT-APP-API/blob/master/%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%94%E7%94%A8%E6%8E%A5%E5%85%A5%E6%96%B9%E6%B3%95/IOS/images/url2.jpg)
 3. 需要跳转的时候
 ```
 NSString *urlString = [NSString stringWithFormat:@"AppJumpSecond://%@",textField.text]; [[UIApplication sharedApplication] openURL:[NSURL URLWithString:urlString]];
