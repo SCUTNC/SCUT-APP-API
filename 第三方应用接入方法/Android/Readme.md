@@ -2,10 +2,10 @@
 
 ## APP在华南理工平台上发布需要提供以下材料：
 1. APP包名，例：com.scut.app.activity
-2. APP启动Action: com.allimu.app.sport.main
+2. APP启动Action,例: com.allimu.app.sport.main
 3. 应用下载地址url。
 4. 作者名：用于标识开发方。
-5. app logo
+5. app logo，要求尺寸长宽比1：1，图片像素不低于170x170px，图片大小控制在300K以内
 
 ##  应用跳转中获取个人信息接口
 - 华南理工应用跳转到另外应用中，先通过`getIntent().getLongExtra(“userId”,-1)`;
