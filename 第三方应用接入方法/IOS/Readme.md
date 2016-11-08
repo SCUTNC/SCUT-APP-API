@@ -5,7 +5,7 @@
 1. APP别名,在`URL types`>`Item 0`>`URL Schemes`获取
 2. 应用下载地址url。
 3. 作者名：用于标识开发方。
-4. app logo
+4. app logo，要求：尺寸长宽比1：1，图片像素不低于170px170px，图片大小控制在300K以内
 
 ## 被跳转的APP上的操作步骤
 
