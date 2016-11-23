@@ -10,6 +10,8 @@
     - [第三方原生Android应用接入方法](https://github.com/SCUTNC/SCUT-APP-API/tree/master/第三方应用接入方法/Android)
     - [第三方原生iOS应用接入方法](https://github.com/SCUTNC/SCUT-APP-API/tree/master/第三方应用接入方法/IOS)
     - [第三方Web APP应用接入方法](https://github.com/SCUTNC/SCUT-APP-API/tree/master/第三方应用接入方法/WebAPP)
+- 独立app的跳转逻辑如图：
+![step1](https://github.com/SCUTNC/SCUT-APP-API/blob/master/image/app_loading.png)
 
 
 ## 第三方应用接入申请方式
