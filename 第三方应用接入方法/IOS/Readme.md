@@ -50,13 +50,13 @@
 
 两个APP之间的跳转是通过```[[UIApplication sharedApplication] openURL:url]```这种方式来实现的。
 
-1. 首先设置第一个APP的url地址
+1) 首先设置第一个APP的url地址
 ![step1](https://github.com/SCUTNC/SCUT-APP-API/blob/master/%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%94%E7%94%A8%E6%8E%A5%E5%85%A5%E6%96%B9%E6%B3%95/IOS/images/url1.jpg)
 
-2. 接着设置第二个APP的url地址
+2) 接着设置第二个APP的url地址
 ![step2](https://github.com/SCUTNC/SCUT-APP-API/blob/master/%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%94%E7%94%A8%E6%8E%A5%E5%85%A5%E6%96%B9%E6%B3%95/IOS/images/url2.jpg)
 
-3. 需要跳转的时候
+3) 需要跳转的时候
 ```
 NSString *urlString = [NSString stringWithFormat:@"AppJumpSecond://%@",textField.text]; [[UIApplication sharedApplication] openURL:[NSURL URLWithString:urlString]];
 ```
@@ -66,7 +66,8 @@ NSString *urlString = [NSString stringWithFormat:@"AppJumpFirst://%@",textField.
 ```
 这样就能相互跳转了
 
-4. 处理传过去的数据
+4) 处理传过去的数据
+
 在上面传了textField的数据，接收时在AppDelegate的`- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation`方法里。
 
 在`AppDelegate`里设置属性`@property (nonatomic, strong) RootViewController *rvc;`在`didFinishLaunchingWithOptions`方法里添加:
